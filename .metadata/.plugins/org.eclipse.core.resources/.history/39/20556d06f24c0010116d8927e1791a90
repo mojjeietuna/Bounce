@@ -1,0 +1,74 @@
+package com.Bounce;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import com.Bounce.PaintableObjects.IPaintObject;
+import com.Bounce.PaintableObjects.TestCircle;
+import com.Bounce.PaintableObjects.VisualObjectBase;
+
+import android.content.Context;
+import android.os.Handler;
+import android.os.SystemClock;
+import android.view.View;
+import android.widget.FrameLayout;
+
+public class Game {
+	
+	public List<IPaintObject> Objects = new ArrayList<IPaintObject>();
+	public int TICK_SIZE = 100;
+	
+	private Handler mHandler = new Handler();
+	private Timer mTimer = new Timer();
+	private FrameLayout mView;
+	
+	public void Start(){
+		// mHandler.postDelayed(mUpdateTimeTask, TICK_SIZE);
+		TimerTask task = new TimerTask() {
+			
+			@Override
+			public void run() {
+				
+		       long time = SystemClock.uptimeMillis();
+		       Tick();
+		       mHandler.postAtTime(this, time + TICK_SIZE);			
+			}
+		};
+		mTimer.schedule(mUpdateTimeTask, 100,100);
+	}
+	public void Stop(){
+		
+	}
+	private TimerTask mUpdateTimeTask = new TimerTask() {
+		   public void run() {
+			 
+		       long time = SystemClock.uptimeMillis();
+		       Tick();
+		       mHandler.postAtTime(this, time + TICK_SIZE);
+		   }
+		};
+	
+	public void Tick(){
+
+			List<IPaintObject> ObjectsToDelete = new ArrayList<IPaintObject>();
+			for (IPaintObject obj : Objects) {
+				if (!obj.Tick()) {
+					ObjectsToDelete.add(obj);
+				}
+			}
+			Objects.removeAll(ObjectsToDelete);
+	}
+	
+	public void CreateObjects(Context context, FrameLayout view)
+	{
+		mView = view;		
+		Objects.add(new TestCircle(context, 200, 50));
+		
+		for(IPaintObject obj : Objects)
+		{
+			view.addView((View)obj);
+		}
+	}		
+}

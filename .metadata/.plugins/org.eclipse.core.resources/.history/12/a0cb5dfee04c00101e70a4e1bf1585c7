@@ -1,0 +1,6 @@
+package com.Bounce.PaintableObjects;
+
+public class VisualObjectBase {
+	public int X;
+	public int Y;
+}

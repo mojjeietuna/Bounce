@@ -1,0 +1,48 @@
+package com.Bounce;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.Bounce.PaintableObjects.IPaintObject;
+
+import android.os.Handler;
+import android.os.SystemClock;
+
+public class Game {
+	public List<IPaintObject> Objects = new ArrayList<IPaintObject>();
+	public int TICK_SIZE = 100;
+	
+	private Handler mHandler = new Handler();
+	
+	public void Start(){
+		 mHandler.postDelayed(mUpdateTimeTask, TICK_SIZE);
+	}
+	public void Stop(){
+		 mHandler.removeCallbacks(mUpdateTimeTask);
+	}
+	private Runnable mUpdateTimeTask = new Runnable() {
+		   public void run() {
+		       long time = SystemClock.uptimeMillis();
+		       Tick();
+		       mHandler.postAtTime(this, time + TICK_SIZE);
+		   }
+		};
+	
+	public void Tick(){
+		List<IPaintObject> ObjectsToDelete = new ArrayList<IPaintObject>();
+		
+		for(IPaintObject obj : Objects)
+		{
+			if(!obj.Tick())
+			{
+				ObjectsToDelete.add(obj);
+			}
+		}
+		Objects.removeAll(ObjectsToDelete);
+	}
+	
+
+	
+
+		
+}

@@ -1,0 +1,13 @@
+package com.Bounce.PaintableObjects;
+
+import com.Bounce.Constants;
+
+public abstract class GravityAffectedBase extends VisualObjectBase implements IPaintObject{
+
+	public boolean Tick() {
+		
+		Y += Constants.GRAVITY;
+		return true;
+	}
+
+}

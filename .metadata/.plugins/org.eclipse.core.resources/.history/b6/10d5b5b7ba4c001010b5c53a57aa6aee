@@ -1,0 +1,14 @@
+package com.Bounce;
+
+import android.os.Handler;
+
+public class Game {
+	
+	private Handler mHandler = new Handler();
+	
+	public void Start(){
+		
+	}
+	
+
+}

@@ -1,0 +1,10 @@
+package com.Bounce.PaintableObjects;
+
+public class TestCircle implements IPaintObject {
+
+	public boolean Tick() {
+		
+		
+	}
+
+}

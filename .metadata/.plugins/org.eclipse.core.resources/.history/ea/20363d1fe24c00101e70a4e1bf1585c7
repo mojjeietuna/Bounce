@@ -1,0 +1,26 @@
+package com.Bounce.PaintableObjects;
+
+import android.content.Context;
+import android.graphics.Canvas;
+
+public class TestCircle extends VisualObjectBase implements IPaintObject {
+
+	private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+	 
+	public TestCircle(Context context) {
+		super(context);
+
+	}
+
+	public boolean Tick() {
+		
+		return true;
+	}
+	
+	 @Override
+	 protected void onDraw(Canvas canvas) {
+	     super.onDraw(canvas);
+	     canvas.drawCircle(super.X, super.Y, 30, mPaint);
+	 }
+
+}

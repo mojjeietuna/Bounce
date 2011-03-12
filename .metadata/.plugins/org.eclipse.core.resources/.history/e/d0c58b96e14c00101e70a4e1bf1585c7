@@ -1,0 +1,20 @@
+package com.Bounce.PaintableObjects;
+
+import android.content.Context;
+
+import com.Bounce.Constants;
+
+public abstract class GravityAffectedBase extends VisualObjectBase implements IPaintObject{
+
+	public GravityAffectedBase(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+	public boolean Tick() {
+		
+		Y += Constants.GRAVITY;
+		return true;
+	}
+
+}

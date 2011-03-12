@@ -1,0 +1,10 @@
+package com.Bounce.PaintableObjects;
+
+public class GravityAffectedBase extends VisualObjectBase implements IPaintObject{
+
+	public void Tick() {
+		
+		
+	}
+
+}

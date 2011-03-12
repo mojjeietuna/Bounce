@@ -1,0 +1,16 @@
+package com.Bounce.test;
+
+import com.Bounce.Game;
+
+import junit.framework.TestCase;
+
+public class GameTests extends TestCase {
+
+	private Game mGame;
+	
+	protected void setUp() throws Exception {
+		super.setUp();
+		mGame = new Game();
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.Bounce;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class BounceActivity extends Activity {
+
+	private Game mGame = new Game();
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+}
