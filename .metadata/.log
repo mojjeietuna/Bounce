@@ -1,0 +1,13 @@
+!SESSION 2011-03-12 14:20:33.181 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2011-03-12 14:27:45.253
+!MESSAGE Failed to load properties file for project 'Bounce'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2011-03-12 14:27:45.967
+!MESSAGE Failed to load properties file for project 'BounceTest'
