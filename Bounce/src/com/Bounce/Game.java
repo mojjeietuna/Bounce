@@ -23,17 +23,23 @@ public class Game {
 	public int TICK_SIZE = 100;
 	
 	private Handler mHandler = new Handler();
-	private final Timer mTimer = new Timer();
 	private FrameLayout mView;
 	private Context mContext;
 	
 	
 	private Runnable mUpdateTimeTask = new Runnable() {
 		   public void run() {
-			   		     
-			   Tick();
-			   mView.invalidate();
-		       mHandler.postDelayed(mUpdateTimeTask, 50);
+			   long timeConsumedByTick;
+			   do{
+				   long	beforeTick = System.currentTimeMillis();
+				   Tick();
+				   mView.invalidate();
+				   long	afterTick = System.currentTimeMillis();
+				   timeConsumedByTick = afterTick - beforeTick;
+			   }
+			   while(timeConsumedByTick<Constants.TIME_BETWEEN_TICKS);
+			   long delay = Constants.TIME_BETWEEN_TICKS -timeConsumedByTick; 
+		       mHandler.postDelayed(mUpdateTimeTask, delay);
 		   }
 		};
 	

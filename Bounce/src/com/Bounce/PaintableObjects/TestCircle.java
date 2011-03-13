@@ -10,7 +10,7 @@ public class TestCircle extends GravityAffectedBase implements IPaintObject {
 	 
 	public TestCircle(Context context, float x, float y) {
         super(context);
-        mPaint.setColor(0xFFFF0000);
+        mPaint.setColor(0xFFFF0A00);
         this.X = x;
         this.Y = y;
     }
@@ -29,6 +29,7 @@ public class TestCircle extends GravityAffectedBase implements IPaintObject {
 		{
 			dY = -dY;
 		}
+		dY *= 0.8;
 		return true;
 	}
 

@@ -1,5 +1,8 @@
 package com.Bounce.test;
 
+import android.view.View;
+import android.widget.FrameLayout;
+
 import com.Bounce.Game;
 import com.Bounce.test.MockObjects.PaintObject;
 
@@ -9,12 +12,15 @@ public class GameTests extends TestCase {
 
 	private Game mGame;
 	private PaintObject mPaintObject;
+
 	
 	protected void setUp() throws Exception {
 		super.setUp();
 		mGame = new Game(null);
 		mPaintObject = new PaintObject();
 		mGame.Objects.add(mPaintObject);
+		
+	
 	}
 	public void testTickCallsTickOnObjects()
 	{
@@ -34,7 +40,13 @@ public class GameTests extends TestCase {
 		assertEquals(1, mGame.Objects.size());
 	}
 
-
+	public void testCreateObjects()
+	{
+		FrameLayout view= new FrameLayout(null);
+		mGame.CreateObjects(view);
+		assertNotSame(0, view.getChildCount());
+		assertNotSame(0, mGame.Objects.size());
+	}
 }
 
 

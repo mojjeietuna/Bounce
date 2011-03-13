@@ -1,0 +1,51 @@
+package com.Bounce.test;
+
+import android.view.View;
+import android.widget.FrameLayout;
+
+import com.Bounce.Game;
+import com.Bounce.test.MockObjects.PaintObject;
+
+import junit.framework.TestCase;
+
+public class GameTests extends TestCase {
+
+	private Game mGame;
+	private PaintObject mPaintObject;
+	private View mView;
+	
+	protected void setUp() throws Exception {
+		super.setUp();
+		mView = new View();
+		mGame = new Game(null);
+		mPaintObject = new PaintObject();
+		mGame.Objects.add(mPaintObject);
+		
+	
+	}
+	public void testTickCallsTickOnObjects()
+	{
+		mGame.Tick();
+		assertEquals(1, mPaintObject.NumberOfTicks);
+	}
+	public void testTickRemovesObjectsThatReturnsFalse()
+	{
+		assertEquals(1, mGame.Objects.size());
+		mGame.Tick();
+		assertEquals(0, mGame.Objects.size());
+	}
+	public void testTickDoesNotRemoveObjectsThatReturnsTrue()
+	{
+		mPaintObject.TickResult = true;
+		mGame.Tick();
+		assertEquals(1, mGame.Objects.size());
+	}
+
+	public void testCreateObjects()
+	{
+		FrameLayout view= new FrameLayout(null);
+		mGame.CreateObjects(view);
+	}
+}
+
+
