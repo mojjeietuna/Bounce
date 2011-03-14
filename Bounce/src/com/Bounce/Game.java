@@ -25,6 +25,7 @@ public class Game {
 	private Handler mHandler = new Handler();
 	private FrameLayout mView;
 	private Context mContext;
+	private boolean mIsRunning = true;
 	
 	
 	private Runnable mUpdateTimeTask = new Runnable() {
@@ -39,7 +40,10 @@ public class Game {
 			   }
 			   while(timeConsumedByTick<Constants.TIME_BETWEEN_TICKS);
 			   long delay = Constants.TIME_BETWEEN_TICKS -timeConsumedByTick; 
-		       mHandler.postDelayed(mUpdateTimeTask, delay);
+			   if(mIsRunning)
+			   {
+				   mHandler.postDelayed(mUpdateTimeTask, delay);
+			   }
 		   }
 		};
 	
@@ -54,7 +58,7 @@ public class Game {
 
 	}
 	public void Stop(){
-		
+		mIsRunning = false;
 	}
 
 	
