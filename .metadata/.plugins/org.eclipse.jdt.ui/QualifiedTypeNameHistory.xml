@@ -17,6 +17,8 @@
 <fullyQualifiedTypeName name="com.Bounce.PaintableObjects.IPaintObject"/>
 <fullyQualifiedTypeName name="android.widget.FrameLayout"/>
 <fullyQualifiedTypeName name="com.Bounce.test.GameTests"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="com.Bounce.Constants"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
 </qualifiedTypeNameHistroy>

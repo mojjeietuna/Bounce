@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="23" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="996" maximized="true" width="1102" x="25" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -12,18 +12,19 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -32,67 +33,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
-<part id="11"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" partName="Game.java" path="C:/dev/Java/Bounce/src/com/Bounce/Game.java" title="Game.java" tooltip="Bounce/src/com/Bounce/Game.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/Game.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1118" selectionTopPixel="136"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCircle.java" partName="TestCircle.java" path="C:/dev/Java/Bounce/src/com/Bounce/PaintableObjects/TestCircle.java" title="TestCircle.java" tooltip="Bounce/src/com/Bounce/PaintableObjects/TestCircle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/PaintableObjects/TestCircle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="404" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BounceActivity.java" partName="BounceActivity.java" path="C:/dev/Java/Bounce/src/com/Bounce/BounceActivity.java" title="BounceActivity.java" tooltip="Bounce/src/com/Bounce/BounceActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/BounceActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="467" selectionTopPixel="0"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="C:/dev/Java/BounceTest/res/layout/main.xml" title="main.xml" tooltip="BounceTest/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BounceTest/res/layout/main.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" partName="strings.xml" path="C:/dev/Java/BounceTest/res/values/strings.xml" title="strings.xml" tooltip="BounceTest/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BounceTest/res/values/strings.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="BounceTest Manifest" path="C:/dev/Java/BounceTest/AndroidManifest.xml" title="BounceTest Manifest" tooltip="BounceTest/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BounceTest/AndroidManifest.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" partName="main.xml" path="C:/dev/Java/Bounce/res/layout/main.xml" title="main.xml" tooltip="Bounce/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/res/layout/main.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GravityAffectedBase.java" partName="GravityAffectedBase.java" path="C:/dev/Java/Bounce/src/com/Bounce/PaintableObjects/GravityAffectedBase.java" title="GravityAffectedBase.java" tooltip="Bounce/src/com/Bounce/PaintableObjects/GravityAffectedBase.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/PaintableObjects/GravityAffectedBase.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="381" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="VisualObjectBase.java" partName="VisualObjectBase.java" path="C:/dev/Java/Bounce/src/com/Bounce/PaintableObjects/VisualObjectBase.java" title="VisualObjectBase.java" tooltip="Bounce/src/com/Bounce/PaintableObjects/VisualObjectBase.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/PaintableObjects/VisualObjectBase.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="212" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GameTests.java" partName="GameTests.java" path="C:/dev/Java/BounceTest/src/com/Bounce/test/GameTests.java" title="GameTests.java" tooltip="BounceTest/src/com/Bounce/test/GameTests.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BounceTest/src/com/Bounce/test/GameTests.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="484" selectionTopPixel="68"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Constants.java" partName="Constants.java" path="C:/dev/Java/Bounce/src/com/Bounce/Constants.java" title="Constants.java" tooltip="Bounce/src/com/Bounce/Constants.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/src/com/Bounce/Constants.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="125" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" partName="R.java" path="C:/dev/Java/Bounce/gen/com/Bounce/R.java" title="R.java" tooltip="Bounce/gen/com/Bounce/R.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Bounce/gen/com/Bounce/R.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="231" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
@@ -101,10 +45,12 @@
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="780" scroll="false" time="true"/>
 </view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
+<expanded>&#x0A;<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -120,9 +66,7 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">
-<sorter>
-<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
 <sort1 sortDirection="1" sortKey="RANK"/>
 <sort2 sortDirection="1" sortKey="DATE_CREATED"/>
 <sort3 sortDirection="1" sortKey="NONE"/>
@@ -151,7 +95,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.ui.resourcePerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -198,6 +142,7 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -225,11 +170,13 @@
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -252,171 +199,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/PaintableObjects/TestCircle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/BounceActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/PaintableObjects/VisualObjectBase.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BounceTest/src/com/Bounce/test/GameTests.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/PaintableObjects/TestCircle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/Constants.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/PaintableObjects/GravityAffectedBase.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/BounceActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bounce/src/com/Bounce/PaintableObjects/VisualObjectBase.java"/>
-</editors>
-<item historyLabel="Game.java" index="0">
-<position/>
-</item>
-<item historyLabel="BounceActivity.java" index="2">
-<position info="not_deleted" x="491" y="0"/>
-</item>
-<item historyLabel="BounceActivity.java" index="2">
-<position info="not_deleted" x="505" y="0"/>
-</item>
-<item historyLabel="BounceActivity.java" index="2">
-<position info="not_deleted" x="492" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="1013" y="5"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="911" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="911" y="0"/>
-</item>
-<item historyLabel="TestCircle.java" index="1">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="911" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="1360" y="0"/>
-</item>
-<item historyLabel="BounceActivity.java" index="2">
-<position info="not_deleted" x="188" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="457" y="4"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="1581" y="0"/>
-</item>
-<item historyLabel="Game.java" index="0">
-<position info="not_deleted" x="1606" y="0"/>
-</item>
-<item historyLabel="VisualObjectBase.java" index="3">
-<position info="not_deleted" x="295" y="0"/>
-</item>
-<item historyLabel="VisualObjectBase.java" index="3">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="BounceActivity.java" index="2">
-<position info="not_deleted" x="467" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="318" y="14"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1670" y="13"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="477" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1038" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1034" y="4"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1029" y="0"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1880" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1029" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1030" y="0"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1851" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1030" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="1081" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="573" y="0"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position/>
-</item>
-<item historyLabel="TestCircle.java" index="6">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="TestCircle.java" index="6">
-<position info="not_deleted" x="511" y="0"/>
-</item>
-<item historyLabel="TestCircle.java" index="6">
-<position info="not_deleted" x="153" y="10"/>
-</item>
-<item historyLabel="Constants.java" index="7">
-<position info="not_deleted" x="78" y="1"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Constants.java" index="7">
-<position info="not_deleted" x="126" y="0"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1204" y="0"/>
-</item>
-<item historyLabel="Game.java" index="5">
-<position info="not_deleted" x="1118" y="0"/>
-</item>
-<item historyLabel="Constants.java" index="7">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="TestCircle.java" index="6">
-<position info="not_deleted" x="153" y="10"/>
-</item>
-<item historyLabel="GravityAffectedBase.java" index="8">
-<position info="not_deleted" x="381" y="0"/>
-</item>
-<item historyLabel="TestCircle.java" index="6">
-<position info="not_deleted" x="404" y="0"/>
-</item>
-<item historyLabel="Constants.java" index="7">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="573" y="0"/>
-</item>
-<item historyLabel="GameTests.java" index="4">
-<position info="not_deleted" x="218" y="9"/>
-</item>
-<item historyLabel="BounceActivity.java" index="9">
-<position info="not_deleted" x="467" y="0"/>
-</item>
-<item active="true" historyLabel="VisualObjectBase.java" index="10">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -425,9 +208,6 @@
 <trimArea IMemento.internal.id="16384">
 <trimItem IMemento.internal.id="topLeft"/>
 <trimItem IMemento.internal.id="bottomLeft"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -441,6 +221,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Bounce/AndroidManifest.xml">
+<persistable path="/Bounce/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="default.properties" tooltip="Bounce/default.properties">
+<persistable path="/Bounce/default.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="start.xml" tooltip="Bounce/res/layout/start.xml">
+<persistable path="/Bounce/res/layout/start.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StartActivity.java" tooltip="Bounce/src/com/Bounce/StartActivity.java">
+<persistable path="/Bounce/src/com/Bounce/StartActivity.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="Bounce/gen/com/Bounce/R.java">
 <persistable path="/Bounce/gen/com/Bounce/R.java"/>
 </file>
@@ -473,18 +265,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestCircle.java" tooltip="Bounce/src/com/Bounce/PaintableObjects/TestCircle.java">
 <persistable path="/Bounce/src/com/Bounce/PaintableObjects/TestCircle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="Bounce/src/com/Bounce/Game.java">
-<persistable path="/Bounce/src/com/Bounce/Game.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PaintObject.java" tooltip="BounceTest/src/com/Bounce/test/MockObjects/PaintObject.java">
-<persistable path="/BounceTest/src/com/Bounce/test/MockObjects/PaintObject.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="strings.xml" tooltip="Bounce/res/values/strings.xml">
-<persistable path="/Bounce/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GounceActivity.java" tooltip="Bounce/src/com/Bounce/GounceActivity.java">
-<persistable path="/Bounce/src/com/Bounce/GounceActivity.java"/>
 </file>
 </mruList>
 </workbench>
