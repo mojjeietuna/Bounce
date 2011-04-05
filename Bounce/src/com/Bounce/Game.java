@@ -17,10 +17,7 @@ import android.widget.FrameLayout;
 
 public class Game {
 	
-
-	
 	public List<IPaintObject> Objects = new ArrayList<IPaintObject>();
-	public int TICK_SIZE = 100;
 	
 	private Handler mHandler = new Handler();
 	private FrameLayout mView;
@@ -34,11 +31,11 @@ public class Game {
 			   do{
 				   long	beforeTick = System.currentTimeMillis();
 				   Tick();
-				   mView.invalidate();
+				   //mView.invalidate();
 				   long	afterTick = System.currentTimeMillis();
 				   timeConsumedByTick = afterTick - beforeTick;
 			   }
-			   while(timeConsumedByTick<Constants.TIME_BETWEEN_TICKS);
+			   while(timeConsumedByTick>Constants.TIME_BETWEEN_TICKS);
 			   long delay = Constants.TIME_BETWEEN_TICKS -timeConsumedByTick; 
 			   if(mIsRunning)
 			   {
@@ -69,6 +66,7 @@ public class Game {
 				if (!obj.Tick()) {
 					ObjectsToDelete.add(obj);
 				}
+				((View)obj).invalidate();
 			}
 			Objects.removeAll(ObjectsToDelete);
 	}

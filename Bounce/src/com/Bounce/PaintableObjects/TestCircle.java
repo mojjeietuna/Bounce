@@ -29,7 +29,8 @@ public class TestCircle extends GravityAffectedBase implements IPaintObject {
 		{
 			dY = -dY;
 		}
-		dY *= 0.8;
+		dY *= 0.9;
+
 		return true;
 	}
 
